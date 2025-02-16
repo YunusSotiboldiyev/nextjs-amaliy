@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-black text-white py-4 flex justify-between items-center sticky top-0 z-2">
       <div className="flex items-center"> 
         <Link href="/" className="text-yellow-500">
-        <Image src="/logo.png" alt="Logo" width={75} height={75} className="mr-2" />
+        <Image src="/Logo.png" alt="Logo" width={75} height={75} className="mr-2" />
         </Link>
       </div>
       <div className="hidden md:flex space-x-6">
