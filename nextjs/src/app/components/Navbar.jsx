@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Bell } from "lucide-react";
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white px-6 py-4 flex justify-between items-center sticky top-0 z-2">
+    <nav className="bg-black text-white py-4 flex justify-between items-center sticky top-0 z-2">
       <div className="flex items-center"> 
         <Link href="/" className="text-yellow-500">
         <Image src="/logo.png" alt="Logo" width={75} height={75} className="mr-2" />
